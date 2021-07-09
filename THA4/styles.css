@@ -1,0 +1,64 @@
+.parent {
+    display:table;
+    margin: 50px auto;
+    background: none;
+    height: 500px;
+    width: 500px;
+}
+
+.circle {
+    height: 100%;
+    width: 100%;
+    vertical-align:middle;
+    border-radius: 50%;
+    border: 30px solid green;
+    display: table-cell;
+}
+
+.center {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: solid black;
+    background-color:black;
+    margin: auto;
+}
+
+.hour,.minute,.second {
+    background: black;
+    position: absolute;
+    border-radius: 7px;
+}
+
+.hour {
+    height: 20%;
+    left: 49.5%;
+    width: 1%;
+    transform-origin: center;
+    margin: auto;
+}
+
+.minute {
+    height: 25%;
+    left: 49.5%;
+    width: 1%;
+    margin: auto;
+}
+
+.second {
+    height: 30%;
+    left: 49.5%;
+    width: 1%;
+    margin: auto;
+}
+
+h1 {
+    color:indianred;
+    font-size: 60px;
+    margin-top: 40px;
+    text-align:center;
+}
+
+div {
+    text-align:center;
+}
